@@ -81,6 +81,22 @@ export const LaunchParagraphOne = styled.p`
     
   }
 `;
+export const LaunchLink = styled.a`
+  /* margin-top: 20px; */
+  /* top: 20px;
+  margin-left: 10px;
+  width: 85%;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 25px; */
+
+  
+
+  &:hover {
+    
+  }
+`;
 
 export const LaunchParagraphMission = styled.p`
   margin-top: 20px;

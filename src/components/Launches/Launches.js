@@ -10,6 +10,7 @@ import {
     LaunchImg, 
     LaunchParagraph, 
     LaunchParagraphOne,
+    LaunchLink,
     LaunchArrow,
     LaunchParagraphSpan, 
     LaunchParagraphSpanOne, 
@@ -85,9 +86,9 @@ class Launches extends Component {
 
                     <LaunchParagraphSpan >
                         <LaunchArrow src={arrow} />
-                        <LaunchParagraphOne>
-                            <a href="https://en.wikipedia.org/wiki/DemoSat">Go to Wikipedia Page</a>
-                        </LaunchParagraphOne>
+                        
+                            <LaunchLink href="https://en.wikipedia.org/wiki/DemoSat">Go to Wikipedia Page</LaunchLink>
+                       
                     </LaunchParagraphSpan>
                 </LaunchCard>
                 
