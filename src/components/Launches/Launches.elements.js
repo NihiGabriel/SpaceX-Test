@@ -53,7 +53,7 @@ export const LaunchCard = styled.div`
   text-align: center;
   position: relative;
   font-family: arial;
-  height: 30em;
+  height: 28em;
 
   @media screen and (max-width: 375px){
     
