@@ -30,7 +30,7 @@ export const FooterContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 0px;
-  padding-top: 50px;
+  padding-top: 0;
 
   @media screen and (max-width: 576px){
     display: block;
@@ -176,6 +176,9 @@ export const FooterLinkTitleOne = styled.h2`
   position: relative;
   left: 0px;
   font-size: 16px;
+  @media screen and (max-width: 576px) {
+    margin-left: 24px;
+  }
 `;
 
 export const FooterLinkTitleTwo = styled.h2`
@@ -184,13 +187,20 @@ export const FooterLinkTitleTwo = styled.h2`
   position: relative;
   left: -17px;
   font-size: 16px;
+  @media screen and (max-width: 576px) {
+    margin-left: 40px;
+  }
 `;
+
 export const FooterLinkTitleFour = styled.h2`
   margin-bottom: 20px;
   text-align: center;
   position: relative;
   left: 85px;
   font-size: 16px;
+  @media screen and (max-width: 576px) {
+    left: 70px;
+  }
 `;
 
 export const FooterLinkTitleThree = styled.h2`
@@ -230,11 +240,14 @@ export const FooterLink = styled(Link)`
   color: #959595;
   text-decoration: none;
   margin-top: 2rem;
- margin-left: 70px;
+  margin-left: 70px;
   text-align: center ;
   align-self: center;
   font-size: 14px;
 
+  @media screen and (max-width: 576px) {
+    margin-right: 50px;
+  }
 
   &:hover {
     color: #0467fb;
@@ -286,6 +299,10 @@ export const FooterLinkFour = styled(Link)`
   &:hover {
     color: #0467fb;
     transition: 0.3s ease-out;
+  }
+
+  @media screen and (max-width: 820px) {
+    margin-left: 20px;
   }
 `;
 

@@ -29,6 +29,7 @@ export const DedicatedSubContainer = styled.div`
 
   @media screen and (max-width: 576px){
     display: block;
+    padding: 1rem 0 2rem 0;
   }
 `;
 
@@ -67,7 +68,8 @@ export const DedicatedSubheading = styled.p`
 
   @media screen and (max-width: 576px){
     width: 100%;
-  text-align: center;
+    text-align: center;
+    top: -50px;
   }
 `;
 
@@ -82,6 +84,7 @@ export const DedicatedParagraph = styled.p`
     padding-right: 20px;
     text-align: center;
     padding-left: 20px;
+    top: -10px;
   }
   
 `;

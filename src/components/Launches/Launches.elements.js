@@ -2,26 +2,32 @@ import styled from 'styled-components'
 
 export const LaunchContainer = styled.div`
   background-color: #f1f1f1;
-  padding-top: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 55px;
+  padding: 80px;
 
-  display: -webkit-box;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+
+  @media screen and (max-width: 375px){
+   max-width: 66%;
+  }
+
+  @media screen and (max-width: 375px){
+   max-width: 71%;
+  }
 
   @media screen and (max-width: 576px){
     display: block;
-    padding-right: 0px;
+    padding-right: 10px;
     padding-top: 0px;
-    
     width: 70%;
-  padding-left: 0px
+    padding-left: 10px;
+  }
+
+  @media screen and (max-width: 768px){
+    grid-gap: 0px;
+    padding: 0px;
+
   }
 `;
 
@@ -32,29 +38,45 @@ export const LaunchSection = styled.section`
 
 export const LaunchHeading = styled.p`
   margin-bottom: 10px;
-  padding-top: 80px;
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 5px;
   text-align: center;
+
+ 
 `;
 
 export const LaunchCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 275px;
   background-color: #ffffff;
-  margin: auto;
   text-align: center;
-  
+  position: relative;
   font-family: arial;
-  height: 24em;
+  height: 30em;
+
+  @media screen and (max-width: 375px){
+    
+    left: 53px !important;
+  }
 
   @media screen and (max-width: 576px){
-    margin-top: 10px;
+    margin-top: 2em;
+    left: 70px;
+    max-width: 269px !important;
+  }
+
+  @media screen and (max-width: 768px){
+    max-width: 187px;
   }
 `
 export const LaunchImg = styled.img`
 width: 200px;
+
+@media screen and (max-width: 768px){
+    max-width: 150px
+
+  }
 
 `
 
@@ -77,8 +99,10 @@ export const LaunchParagraphOne = styled.p`
   text-align: left;
   padding-left: 25px;
 
-  &:hover {
-    
+  @media screen and (max-width: 768px){
+    font-size: 10px;
+    margin-top: 23px;
+
   }
 `;
 export const LaunchLink = styled.a`
@@ -91,7 +115,6 @@ export const LaunchLink = styled.a`
   text-align: left;
   padding-left: 25px; */
 
-  
 
   &:hover {
     
@@ -119,7 +142,8 @@ export const LaunchParagraphSpan = styled.div`
   font-size: 14px;
   text-align: left;
   padding-left: 25px;
-  
+  position: absolute;
+  bottom: 0;
 `;
 export const LaunchParagraphSpanOne = styled.span`
   margin-top: 20px;
