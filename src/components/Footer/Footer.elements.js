@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
@@ -87,6 +86,7 @@ export const FooterSubText = styled.p`
   margin-bottom: 24px;
   font-size: 15px;
   text-align: start;
+  font-family: Arial;
 `;
 
 export const Form = styled.form`
@@ -106,10 +106,14 @@ export const FormInput = styled.input`
   margin-right: 10px;
   outline: #0865DE;
   font-size: 14px;
-  border: 1px solid #0865DE;
+  border: 1px solid #ccc;
 
   &::placeholder {
     color: #959595;
+  }
+
+  &:focus{
+    border: 1px solid #0865DE;
   }
 
   @media screen and (max-width: 820px) {

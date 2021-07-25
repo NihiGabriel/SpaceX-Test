@@ -77,6 +77,7 @@ export const DedicatedParagraph = styled.p`
   margin-top: 20px;
   width: 85%;
   font-size: 18px;
+  font-family: Arial;
 
   @media screen and (max-width: 576px){
     width: 100%;

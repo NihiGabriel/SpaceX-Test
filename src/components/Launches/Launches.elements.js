@@ -110,19 +110,7 @@ export const LaunchParagraphOne = styled.a`
 
   }
 `;
-export const LaunchLink = styled.a`
-  /* margin-top: 20px; */
-  /* top: 20px;
-  margin-left: 10px;
-  width: 85%;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: left;
-  padding-left: 25px; */
 
-
-  
-`;
 
 export const LaunchParagraphMission = styled.p`
   margin-top: 20px;
@@ -161,15 +149,16 @@ export const LaunchParagraphSpanOne = styled.span`
 export const LaunchParagraphSpanTwo = styled.span`
   margin-top: 20px;
   color: #959595;
-  width: 85%;
+  width: 80%;
   font-size: 12px;
   font-weight: 100;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 8px;
 `;
 
 export const LaunchArrow = styled.img`
     margin-bottom: -8px;
+    color: black;
 `
 
 export const LaunchSubContainer = styled.div`
