@@ -90,14 +90,19 @@ export const LaunchParagraph = styled.p`
   padding-left: 25px;
 `;
 
-export const LaunchParagraphOne = styled.p`
+export const LaunchParagraphOne = styled.a`
   margin-top: 20px;
   margin-left: 10px;
   width: 85%;
   font-size: 14px;
   font-weight: bold;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 0px;
+  color: #000;
+
+  &:hover {
+    color: blue;
+  }
 
   @media screen and (max-width: 768px){
     font-size: 10px;
@@ -116,9 +121,7 @@ export const LaunchLink = styled.a`
   padding-left: 25px; */
 
 
-  &:hover {
-    
-  }
+  
 `;
 
 export const LaunchParagraphMission = styled.p`
@@ -133,6 +136,7 @@ export const LaunchParagraphMission = styled.p`
 
 export const ArrowDiv = styled.div`
 display: flex;
+
 `
 
 export const LaunchParagraphSpan = styled.div`
@@ -165,7 +169,7 @@ export const LaunchParagraphSpanTwo = styled.span`
 `;
 
 export const LaunchArrow = styled.img`
-    margin-bottom: -45px;
+    margin-bottom: -8px;
 `
 
 export const LaunchSubContainer = styled.div`
