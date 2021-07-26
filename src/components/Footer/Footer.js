@@ -26,6 +26,7 @@ import {
   FooterLinkFour,
   SocialMedia,
   SocialMediaWrap,
+  FooterLine1,
   FooterLogo,
   FooterLogoImg,
   WebsiteRights,
@@ -85,6 +86,7 @@ function Footer() {
         </FooterSubscription>
      
       </FooterRow>
+        <FooterLine1 />
       
       <SocialMedia>
         <SocialMediaWrap>

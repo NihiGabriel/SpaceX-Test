@@ -76,19 +76,7 @@ function Navbar() {
                   CONTACT
                 </NavLinks>
               </NavItem>
-              {/* <NavItemBtn>
-                {button ? (
-                  <NavBtnLink to='/sign-up'>
-                    <Button primary>SIGN UP</Button>
-                  </NavBtnLink>
-                ) : (
-                  <NavBtnLink to='/sign-up'>
-                    <Button onClick={closeMobileMenu} fontBig primary>
-                      SIGN UP
-                    </Button>
-                  </NavBtnLink>
-                )}
-              </NavItemBtn> */}
+            
             </NavMenu>
           </NavbarContainer>
         </Nav>

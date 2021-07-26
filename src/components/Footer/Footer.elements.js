@@ -225,6 +225,15 @@ export const FooterLine = styled.span`
   position: relative;
 
 `
+export const FooterLine1 = styled.span`
+  background-color: #fff;
+  width: 64%;
+  height: 2px;
+  position: relative;
+  left: -15.2em;
+;
+
+`
 export const FooterLinetwo = styled.span`
   background-color: #fff;
   width: 1px;
